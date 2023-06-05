@@ -1,0 +1,52 @@
+[2023-06-05 16:48:52] local.ERROR: Command "migrate:roleback" is not defined.
+
+Did you mean one of these?
+    migrate
+    migrate:fresh
+    migrate:install
+    migrate:refresh
+    migrate:reset
+    migrate:rollback
+    migrate:status {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"migrate:roleback\" is not defined.
+
+Did you mean one of these?
+    migrate
+    migrate:fresh
+    migrate:install
+    migrate:refresh
+    migrate:reset
+    migrate:rollback
+    migrate:status at C:\\xamppeighttwo\\htdocs\\laravel\\MigrationAssignment\\vendor\\symfony\\console\\Application.php:725)
+[stacktrace]
+#0 C:\\xamppeighttwo\\htdocs\\laravel\\MigrationAssignment\\vendor\\symfony\\console\\Application.php(262): Symfony\\Component\\Console\\Application->find('migrate:rolebac...')
+#1 C:\\xamppeighttwo\\htdocs\\laravel\\MigrationAssignment\\vendor\\symfony\\console\\Application.php(174): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 C:\\xamppeighttwo\\htdocs\\laravel\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(200): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\xamppeighttwo\\htdocs\\laravel\\MigrationAssignment\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 {main}
+"} 
+[2023-06-05 16:50:11] local.ERROR: Command "migrate:roleback" is not defined.
+
+Did you mean one of these?
+    migrate
+    migrate:fresh
+    migrate:install
+    migrate:refresh
+    migrate:reset
+    migrate:rollback
+    migrate:status {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"migrate:roleback\" is not defined.
+
+Did you mean one of these?
+    migrate
+    migrate:fresh
+    migrate:install
+    migrate:refresh
+    migrate:reset
+    migrate:rollback
+    migrate:status at C:\\xamppeighttwo\\htdocs\\laravel\\MigrationAssignment\\vendor\\symfony\\console\\Application.php:725)
+[stacktrace]
+#0 C:\\xamppeighttwo\\htdocs\\laravel\\MigrationAssignment\\vendor\\symfony\\console\\Application.php(262): Symfony\\Component\\Console\\Application->find('migrate:rolebac...')
+#1 C:\\xamppeighttwo\\htdocs\\laravel\\MigrationAssignment\\vendor\\symfony\\console\\Application.php(174): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 C:\\xamppeighttwo\\htdocs\\laravel\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(200): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\xamppeighttwo\\htdocs\\laravel\\MigrationAssignment\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 {main}
+"} 
